@@ -1,1 +1,32 @@
-/* css style */ 
+:root {
+    --background-color: #0a0a1a;
+    --surfacecard-color: #0f1135;
+    --accent-primary: #6c63ff;
+    --accent-secondary: #ff6eb4;
+    --goldhighlight: #ffd700;
+    --text-color: #e8e8f0;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.side-button {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    gap: 22px;          
+    padding: 40px 46px; 
+    
+}
+.button{
+    background-color: var(--surfacecard-color);
+    color: var(--text-color);
+    border-color: var(--goldhighlight);
+    padding: 25px 10px;
+    width: 250px;
+    height: 50px;
+    gap: 100px;
+}
